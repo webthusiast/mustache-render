@@ -1,0 +1,28 @@
+{
+  "name": "mustache-render",
+  "version": "1.0.0",
+  "description": "render a mustache template from a template, view and optionally partials",
+  "main": "bin/render.js",
+  "dependencies": {
+    "mustache": "x",
+    "rsvp": "x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mustache",
+    "render",
+    "cli",
+    "json"
+  ],
+  "author": "Roald de Vries",
+  "repository": "https://github.com/webthusiast/mustache-render",
+  "license": "ISC",
+  "scripts": {
+    "prepublish": "make"
+  },
+  "bin": {
+    "mustache-render": "bin/render.js"
+  }
+}

@@ -1,0 +1,6 @@
+.DS_Store
+/bin/
+/mustache-render-*.tgz
+/node_modules/
+/package/
+/render.js
